@@ -13,10 +13,9 @@ nome = input("Escolha seu nome de usuário/apelido: ")
 cliente.send(nome.encode())
 
 print("\n==================================================")
-print(" Conectado ao Servidor de Chat por Sockets TCP")
-print(" Sala inicial padrão: #geral")
+print(" Conectado ao Servidor com sucesso!")
+print(" Sala atual: geral")
 print(" Para mudar de sala digite: /sala #nomedasala")
-print(" Exemplo: /sala #matriz")
 print("==================================================\n")
 
 # Função executada por uma thread exclusiva para escutar o servidor continuamente

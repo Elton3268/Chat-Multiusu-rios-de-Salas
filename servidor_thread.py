@@ -60,7 +60,7 @@ def tratar_cliente(cliente, endereco):
                 nova_sala = mensagem.split(" ")[1].strip()
                 
                 # Notifica a sala antiga sobre a saída do usuário
-                msg_saida_sala = f"--- {nome_usuario} saiu da sala para ir para {nova_sala} ---"
+                msg_saida_sala = f"--- {nome_usuario}  mudou de sala  ---"
                 broadcast_sala(msg_saida_sala, cliente, sala_atual)
                 
                 # Altera a sala atual do cliente no dicionário de controle
